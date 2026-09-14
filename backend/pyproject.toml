@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "invoice-booking-backend"
+version = "0.1.0"
+description = "Backend for Automated Invoice-to-Booking System"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "python-multipart",
+    "pydantic",
+    "motor",
+    "pdfplumber",
+    "pymupdf",
+    "pytesseract",
+    "pillow",
+    "httpx"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]

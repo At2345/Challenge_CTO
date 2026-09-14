@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/bookingproposaltable.tsx","./src/components/extracteddataform.tsx","./src/components/invoiceselector.tsx","./src/components/pdfpreview.tsx","./src/components/trafficlightbadge.tsx","./src/components/validationresults.tsx","./src/services/api.ts"],"version":"5.9.3"}
